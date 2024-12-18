@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Quentin Chapuis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="header.js"></script>
+</head>
+
+<body>
+        <header>
+            <h1>Quentin Chapuis</h1>
+            <h2><i>BTS Sio option SISR en alternance chez Focal</i></h2>
+            <ul>
+                <li class="active" onclick="affiche(this, 'experience')">Expérience Professionnelle 💼</li>
+                <li onclick="affiche(this, 'competence')">Compétences💻</li>
+                <li onclick="affiche(this, 'coordonnee')">Cordonnée 🧭</li>
+                <li onclick="affiche(this, 'loisir')">Loisir 🎯</li>
+                <li onclick="affiche(this, 'education')">Éducation🎓</li>
+            </ul>
+        </header>
+   <div class="container">
+        <div class="element" id="experience">
+            <h1>Expérience</h1>
+        </div>
+        <div class="element" id="competence">
+            <h1>Compétence</h1>
+        </div>
+        <div class="element" id="coordonnee">
+            <h1>Coordonnée</h1>
+        </div>
+        <div class="element" id="loisir">
+            <h1>Loisir</h1>
+        </div>
+        <div class="element" id="education">
+            <h1>Education</h1>
+        </div>
+   </div>
+</body>
+
+</html>
