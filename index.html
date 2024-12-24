@@ -6,39 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Quentin Chapuis</title>
     <link rel="stylesheet" href="style.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="header.js"></script>
 </head>
 
 <body>
-        <header>
-            <h1>Quentin Chapuis</h1>
-            <h2><i>BTS Sio option SISR en alternance chez Focal</i></h2>
+    <header>
+        <h1>Quentin Chapuis</h1>
+        <h2><i>BTS Sio option SISR en alternance chez Focal</i></h2>
+        <nav>
             <ul>
-                <li class="active" onclick="affiche(this, 'experience')">Expérience Professionnelle 💼</li>
-                <li onclick="affiche(this, 'competence')">Compétences💻</li>
-                <li onclick="affiche(this, 'coordonnee')">Cordonnée 🧭</li>
-                <li onclick="affiche(this, 'loisir')">Loisir 🎯</li>
-                <li onclick="affiche(this, 'education')">Éducation🎓</li>
+                <li><a href="#experience" class="nav-link">Expérience Professionnelle 💼</a></li>
+                <li><a href="#competence" class="nav-link">Compétences 💻</a></li>
+                <li><a href="#coordonnee" class="nav-link">Coordonnées 🧭</a></li>
+                <li><a href="#loisir" class="nav-link">Loisir 🎯</a></li>
+                <li><a href="#education" class="nav-link">Éducation 🎓</a></li>
             </ul>
-        </header>
-   <div class="container">
-        <div class="element" id="experience">
-            <h1>Expérience</h1>
-        </div>
-        <div class="element" id="competence">
-            <h1>Compétence</h1>
-        </div>
-        <div class="element" id="coordonnee">
-            <h1>Coordonnée</h1>
-        </div>
-        <div class="element" id="loisir">
-            <h1>Loisir</h1>
-        </div>
-        <div class="element" id="education">
-            <h1>Education</h1>
-        </div>
-   </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="experience" class="content-section">
+            <h1>💼 Expérience Professionnelle</h1>
+            <ul>
+                <li><strong>Juin 2022</strong> : Stage en maintenance et informatique – <em>Focal</em></li>
+                <li><strong>Janvier 2023</strong> : Stage en maintenance informatique – <em>Auchan Villars</em></li>
+                <li><strong>Mai 2023</strong> : Stage dans le service informatique – <em>Focal</em></li>
+                <li><strong>Septembre 2023</strong> : Surveillance et sécurité des personnes pour les matches de rugby – <em>DOM Sécurité</em></li>
+                <li><strong>Septembre 2023</strong> : Stage dans le service informatique – <em>Focal</em></li>
+                <li><strong>Janvier 2024</strong> : Stage dans le service informatique – <em>Focal</em></li>
+            </ul>
+        </section>
+
+        <section id="competence" class="content-section">
+            <h1>💻 Compétences</h1>
+            <p> Compétences en maintenance informatique, réseaux et gestion de projets.</p>
+        </section>
+
+        <section id="coordonnee" class="content-section">
+            <h1>🧭 Coordonnées</h1>
+            <p>2 Allée Eric Richard, 42160 Bonson</p>
+            <p>Téléphone : <a href="tel:0781804883">0781804883</a></p>
+            <p>Email : <a href="mailto:chapuisquentin13@gmail.com">chapuisquentin13@gmail.com</a></p>
+        </section>
+
+        <section id="loisir" class="content-section">
+            <h1>🎯 Loisir</h1>
+            <p>Pêche et voitures.</p>
+        </section>
+
+        <section id="education" class="content-section">
+            <h1>🎓 Éducation</h1>
+            <ul>
+                <li><strong>2020</strong> : Brevet des collèges – <em>Jacques Prévert</em></li>
+                <li><strong>2020-2021</strong> : 2nd général – <em>Pierre Desgrange Andrézieux</em></li>
+                <li><strong>2021-2022</strong> : 2nd TNE – <em>Pierre Desgrange Andrézieux</em></li>
+                <li><strong>2022-2023</strong> : 1ère pro RISC</li>
+                <li><strong>2023-2024</strong> : Terminale RISC</li>
+            </ul>
+        </section>
+    </div>
 </body>
 
 </html>
